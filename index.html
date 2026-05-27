@@ -3429,6 +3429,91 @@
         html.android-report .discovery-btn {
             touch-action: manipulation;
         }
+
+         /* Commercial Licensing & Copyright Notice */
+        .copyright-section {
+            margin: 44px auto 0;
+            padding: 36px 34px;
+            background: linear-gradient(135deg, rgba(6, 8, 18, 0.96), rgba(20, 23, 38, 0.96));
+            color: #f8fafc;
+            border-top: 1px solid rgba(255,255,255,0.16);
+            border-bottom: 1px solid rgba(255,255,255,0.12);
+        }
+
+        .copyright-content {
+            max-width: 1040px;
+            margin: 0 auto;
+        }
+
+        .copyright-title {
+            margin: 0 0 22px;
+            color: #ffd36a;
+            font-size: clamp(1.45rem, 3vw, 2.25rem);
+            line-height: 1.16;
+            font-weight: 900;
+            letter-spacing: 0;
+        }
+
+        .copyright-text {
+            margin: 0 0 24px;
+            padding: 22px;
+            border-radius: 18px;
+            background: rgba(255,255,255,0.075);
+            border: 1px solid rgba(255,255,255,0.13);
+            color: rgba(248,250,252,0.94);
+            font-size: 0.98rem;
+            line-height: 1.72;
+        }
+
+        .copyright-text strong {
+            color: #ffffff;
+        }
+
+        .zh-text {
+            font-family: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', 'Segoe UI', sans-serif;
+        }
+
+        .te-text {
+            font-family: 'Noto Sans Telugu', 'Gautami', 'Segoe UI', sans-serif;
+        }
+
+        .license-highlight,
+        .photo-credit-box {
+            display: block;
+            margin: 16px 0;
+            padding: 14px 16px;
+            border-radius: 14px;
+            background: rgba(255, 211, 106, 0.12);
+            border: 1px solid rgba(255, 211, 106, 0.26);
+            color: #fff7d6;
+            font-weight: 700;
+        }
+
+        .photo-credit-line {
+            display: block;
+            margin: 8px 0 0;
+            padding-left: 14px;
+        }
+
+        .rights-small {
+            display: block;
+            margin-top: 16px;
+            color: rgba(248,250,252,0.72);
+            font-size: 0.88rem;
+            line-height: 1.62;
+        }
+
+        @media (max-width: 768px) {
+            .copyright-section {
+                padding: 26px 14px;
+            }
+
+            .copyright-text {
+                padding: 16px;
+                border-radius: 14px;
+                font-size: 0.92rem;
+            }
+        }
             
     </style>
 
@@ -12811,8 +12896,8 @@ body.discovery-journey-report .ios-journey-fallback .ios-persistent-control { di
                         
                     <div class="understanding-section">
                         <h4>Telugu Gematria / తెలుగు గెమెట్రియా</h4>
-                        <p><strong>English:</strong> Telugu Gematria assigns numerical values to Telugu letters. This ancient practice reveals hidden meanings and spiritual connections in Telugu literature and sacred texts.</p>
-                        <p><strong>తెలుగు:</strong> తెలుగు గెమెట్రియా తెలుగు అక్షరాలకు సంఖ్యా విలువలను కేటాయిస్తుంది. ఈ పురాతన అభ్యాసం తెలుగు సాహిత్యం మరియు పవిత్ర గ్రంథాలలో దాగిన అర్థాలను మరియు ఆధ్యాత్మిక సంబంధాలను వెల్లడిస్తుంది.</p>
+                        <p><strong>English:</strong> Telugu Gematria assigns numerical values to Telugu letters. </p>
+                        <p><strong>తెలుగు:</strong> తెలుగు గెమెట్రియా తెలుగు అక్షరాలకు సంఖ్యా విలువలను కేటాయిస్తుంది. </p>
                     </div>
                 
                     <div class="understanding-section">
@@ -12822,19 +12907,50 @@ body.discovery-journey-report .ios-journey-fallback .ios-persistent-control { di
                 
                     <div class="understanding-section">
                         <h4>Hindi Gematria / हिंदी गेमेट्रिया</h4>
-                        <p><strong>English:</strong> Hindi Gematria assigns numerical values to Devanagari letters. This system reveals spiritual connections and hidden meanings in Sanskrit and Hindi texts.</p>
-                        <p><strong>हिंदी:</strong> हिंदी गेमेट्रिया देवनागरी अक्षरों को संख्यात्मक मान प्रदान करता है। यह प्रणाली संस्कृत और हिंदी ग्रंथों में आध्यात्मिक संबंधों और छुपे अर्थों को प्रकट करती है।</p>
+                        <p><strong>English:</strong> Hindi Gematria assigns numerical values to Devanagari letters. </p>
+                        <p><strong>हिंदी:</strong> हिंदी गेमेट्रिया देवनागरी अक्षरों को संख्यात्मक मान प्रदान करता है। </p>
                     </div>
                 
                     <div class="understanding-section">
                         <h4>Hebrew Gematria / גימטריה עברית</h4>
-                        <p><strong>English:</strong> Hebrew Gematria is the ancient practice of assigning numerical values to Hebrew letters. Each letter has a specific value (א=1, ב=2, ג=3...) used to find hidden connections in sacred texts.</p>
-                        <p><strong>עברית:</strong> גימטריה עברית היא תרגול עתיק של הקצאת ערכים מספריים לאותיות עבריות. לכל אות יש ערך ספציפי המשמש למציאת קשרים נסתרים בטקסטים קדושים.</p>
+                        <p><strong>English:</strong> Hebrew Gematria is the ancient practice of assigning numerical values to Hebrew letters. Each letter has a specific value (א=1, ב=2, ג=3...) </p>
+                        <p><strong>עברית:</strong> גימטריה עברית היא הנוהג העתיק של ייחוס ערכים מספריים לאותיות עבריות. לכל אות יש ערך ספציפי (א=1, ב=2, ג=3...).</p>
                     </div>
                 
                     </div>
                 </div>
+          <section aria-label="Commercial licensing, copyright notice, and photo credits" class="copyright-section">
+          <div class="copyright-content">
+            <h2 class="copyright-title">🔒 Usage, Copyright, Photo Credits &amp; Commercial Licensing Notice</h2>
+
+            <p class="copyright-text en-text">
+              🔒 <strong>Usage &amp; Copyright Notice</strong><br><br>
+
+              © 2026 <strong>MysteryInAlphabets.com</strong>. All original puzzles, patterns, calculations, numerical interpretations, text arrangements, visual presentation, discovery sequence, and interactive experience presented in this work are original creative works and are protected under copyright.<br><br>
+
+              They are <strong>freely available for personal exploration, private sharing, and educational discussion</strong>. You are welcome to share this work in its original, unmodified form with clear attribution to MysteryInAlphabets.com.<br><br>
+
+              However, <strong>commercial use, resale, paid publication, broadcast use, syndication, adaptation, platform monetization, promotional use, training-data use, or repurposing of these puzzles, calculations, concepts, wording, design, visuals, or discoveries for profit is strictly prohibited without explicit written permission and a paid license or written assignment agreement</strong>.<br><br>
+
             
+              <span class="photo-credit-box">
+                <strong>Photo Credits &amp; Source Notice:</strong><br>
+                Photographs and public-reference images used in this report are credited to their original sources where applicable:<br>
+                <span class="photo-credit-line">&bull; Family Picture materials: www.sakshi.com <strong></strong> </span>
+                <span class="photo-credit-line">&bull; Public biography/reference images and related public-figure reference materials: <strong>Wikipedia</strong> and/or Wikimedia Commons, as credited by their source pages.</span>
+                All credited images remain subject to the rights, licenses, public-domain status, attribution requirements, or usage terms stated by their original source pages. MysteryInAlphabets.com claims copyright only in its original arrangement, calculations, commentary, design, sequencing, and presentation.
+              </span>
+
+              <strong>Licensing contact:</strong> Prem Kumar Konatham - Premindian2025@gmail.com
+
+             
+            </p>
+
+          
+
+           
+          </div>
+        </section>   
         
         <!-- Beautiful Footer -->
         <div class="report-footer">
